@@ -7,20 +7,50 @@ body{
 }
 
 .navbar-brand{
+	font-weight: 400;
 	padding-top: 5px;
+	letter-spacing: 0px;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; 
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.navbar-brand:hover{
+	letter-spacing: .5px;
+	color: #000000;
 }
 
 .navbar-default{
 	z-index: 1;
+	background-color: #EFEFEF;
 }
 
 .navbar-default .navbar-nav li a{
 	font-weight: 300;
-	color: #CCCCCC;
+	color: #BABABA;
 }
 
 .navbar-default .navbar-nav li a:hover{
 	color: #000000;
+}
+
+.navbar-right a{
+	font-size: 10pt;
+	letter-spacing: 0px;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; 
+    cursor: pointer 
+}
+
+.navbar-right a:hover{
+	letter-spacing: .5px;
+	font-size: 11pt;
+	background-color: red;
 }
 
 #header-logo{
@@ -30,10 +60,17 @@ body{
 
 .p5block{
 	padding-top: 25%;
-	z-index: -1;
 }
 
 #home-text{
 	margin-top: 25%;
 	text-align: center;
+}
+
+#home-text span{
+	padding-left: 5px;
+	padding-right: 5px;
+	z-index: 10;
+	background-color: #222222;
+	color: white;
 }
