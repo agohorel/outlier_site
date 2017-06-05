@@ -35,6 +35,7 @@ body{
 
 .navbar-default .navbar-nav li a:hover{
 	color: #000000;
+	background-color: #d3d3d3;
 }
 
 .navbar-right a{
@@ -44,22 +45,17 @@ body{
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease; 
-    cursor: pointer 
+    cursor: pointer; 
 }
 
 .navbar-right a:hover{
 	letter-spacing: .5px;
-	font-size: 11pt;
-	background-color: red;
+	font-size: 10.1pt;
 }
 
 #header-logo{
 	max-width: 40px;
 	max-height: 40px;
-}
-
-.p5block{
-	padding-top: 25%;
 }
 
 #home-text{
@@ -70,7 +66,11 @@ body{
 #home-text span{
 	padding-left: 5px;
 	padding-right: 5px;
-	z-index: 10;
 	background-color: #222222;
 	color: white;
 }
+
+.p5block{
+	padding-top: 25%;
+}
+
