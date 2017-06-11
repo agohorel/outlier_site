@@ -72,12 +72,11 @@ body{
 
 .p5block{
 	height: 100%;
-	/*padding-top: 25%;*/
 }
 
 #playerContainer{
 	font-family: 'Roboto Mono', 'sans-serif';
-	letter-spacing: -1px;
+	letter-spacing: -1.5px;
 	margin-bottom: 7.5%;
 	padding-top: 5%; 
 	padding-bottom: 3%;
@@ -89,6 +88,7 @@ body{
 
 #playerContainer:hover{
 	color: black;
+	letter-spacing: -1px;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
 }
 
@@ -113,12 +113,13 @@ body{
 
 .trackInfo{
 	padding-left: 5%;
+	font-size: calc(9px + .5vw);
 }
 
 .trackArtist{
-		
+	font-size: calc(9px + .5vw);
 }
 
 .trackTitle{
-
+	font-size: calc(10px + .5vw);
 }
