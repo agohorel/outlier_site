@@ -132,9 +132,9 @@ body{
 	font-weight: 300;
 }
 
-#bc-iframe{
-	height: 5100px;	
+#bc-iframe{	
 	width: 100%;
+	height: 94vh;
 	border: none;
 }
 
