@@ -39,25 +39,8 @@
 </nav>
 
 <div class="container">
-	<div class="contactContainer">
-		<form action="https://formspree.io/info@outlierrecordings.com" method="POST" id="contactForm">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">    
-				  <label for="name">name</label>
-				  <input type="text" name="name" required="true">
-
-				  <label for="_replyto">your email</label>
-				  <input type="email" name="_replyto" required="true">
-
-				  <label for="body">your message</label>
-				  <textarea name="body" required="true"></textarea> 
-				</div>	
-			</div>	  
-
-			<input type="text" name="_gotcha" style="display:none"/>
-			<input type="submit" value="Send">
-			<input type="hidden" name="_next" value="contactSubmitted.html"/>
-		</form>
+	<div id="contactSubmitted">
+		<h1>Your message has been sent. Thanks for reaching out!</h1>
 	</div>
 </div>
 

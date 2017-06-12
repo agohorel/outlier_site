@@ -147,3 +147,46 @@ body{
 	padding-right: 5%;
 	width: 100%;
 }
+
+.contactContainer{
+	background-color: #EEEEEE;
+	margin-top: 5vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.10);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);  
+}
+
+.contactContainer:hover{
+	background-color: #EFEFEF;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.11);
+}
+
+#contactForm{
+	padding: 1vh 1vh 1vh 1vh;
+}
+
+#contactForm label { display: block;
+	text-align: left;
+}
+
+#contactForm input[type="submit"]{
+	margin-top: 1vh;
+}
+
+#contactForm input[name="name"]{
+	width: 20vw;
+	margin-bottom: 1vh;
+}
+
+#contactForm input[name="_replyto"]{
+	width: 20vw;
+	margin-bottom: 1vh;
+}
+
+#contactForm textarea[name="body"]{
+	width: 30vw;
+}
+
+#contactSubmitted{
+	margin-top: 20vh;
+	text-align: center;
+}
