@@ -96,13 +96,26 @@ body{
 	box-shadow: 0 4px 8px rgba(0,0,0,0.125), 0 3px 3px rgba(0,0,0,0.11);
 }
 
+.playerContainer button.tracklistExpand.btn.btn-default{
+	padding: 5px 5px;
+	margin: 2.5% 5%;
+	vertical-align: center;
+	color: grey;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+}
+
+.playerContainer:hover button.tracklistExpand.btn.btn-default{
+	color: black;
+}
+
 .list-group{
 	letter-spacing: -1.5px;
 	padding: 5px 15px;
 }
 
 .list-group-item{
-	padding: 5px 10px;	
+	padding: 5px 10px;
+	font-size: 10pt;
 }
 
 .list-group-item:first-child{
@@ -144,6 +157,10 @@ body{
 	padding-left: 5%;
 	font-size: calc(12px + .25vw);
 	font-weight: 300;
+}
+
+h3.tracklistExpand{
+	margin-bottom: 0px;
 }
 
 #bc-iframe{	
