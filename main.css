@@ -96,6 +96,20 @@ body{
 	box-shadow: 0 4px 8px rgba(0,0,0,0.125), 0 3px 3px rgba(0,0,0,0.11);
 }
 
+.list-group{
+	letter-spacing: -1.5px;
+	padding: 5px 15px;
+}
+
+.list-group-item{
+	padding: 5px 10px;	
+}
+
+.list-group-item:first-child{
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 #player{
 	padding-left: 5%;
 	padding-right: 5%;
@@ -117,18 +131,18 @@ body{
 }
 
 .catalogNumber{
-	font-size: calc(9px + .5vw);
+	font-size: calc(14px + .25vw);
 	font-weight: 400;
 }
 
 .podcastArtist{
-	font-size: calc(10px + .5vw);
+	font-size: calc(14px + .25vw);
 	font-weight: 300;
 }
 
 .tracklistExpand{
 	padding-left: 5%;
-	font-size: calc(8px + .5vw);
+	font-size: calc(12px + .25vw);
 	font-weight: 300;
 }
 
