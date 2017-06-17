@@ -234,3 +234,33 @@ h3.tracklistExpand{
 	margin-top: 20vh;
 	text-align: center;
 }
+
+.artistName{
+	color: grey;
+	text-decoration: underline;
+	transition: all .3s ease;
+}
+
+.artistName:hover{
+	color: #000000;
+}
+
+.artistContainer{
+	background: #EFEFEF;
+}
+
+.artistImg{
+	width: 100%;
+	padding: 20px 20px 10px 20px;
+}
+
+.bc-embed{
+	border: 0;
+	width: 255px;
+	height: 255px; 
+	margin-bottom: 10px;
+}
+
+.bc-row{
+	padding: 20px;
+}

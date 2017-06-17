@@ -1,3 +1,5 @@
+// nav
+
 var logo = document.querySelector("#header-logo");
 var navbar = document.querySelector(".navbar-default"); 
 var logoText = document.querySelector(".navbar-brand");
@@ -14,4 +16,16 @@ logo.addEventListener("mouseout", function(){
 	logoText.style.fontSize = "18px";
 	logoText.style.color = "#777777";
 });
+
+// artists
+
+window.onload = function resizeText(){
+	var artistName = document.getElementsByClassName("artistName");
+
+	for (var i = 0; i < artistName.length; i++) {
+		artistName[i].addEventListener("click", function(){
+		artistName[i].style.fontSize("200px");
+		});
+	}
+}
 
