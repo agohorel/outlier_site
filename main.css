@@ -250,10 +250,9 @@ h3.tracklistExpand{
 	color: #000000;
 }
 
-.artistNameClicked{
-	font-size: 80px;
+.artistClicked{
+	font-size: 100px;
 	color: #000000;
-	text-decoration: line-through;
 }
 
 .artistContainer{

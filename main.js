@@ -19,13 +19,9 @@ logo.addEventListener("mouseout", function(){
 
 // artists
 
-window.onload = function resizeText(){
 	var artistName = document.getElementsByClassName("artistName");
 
 	for (var i = 0; i < artistName.length; i++) {
 		artistName[i].addEventListener("click", function(){
-		artistName[i].style.fontSize("200px");
 		});
 	}
-}
-
