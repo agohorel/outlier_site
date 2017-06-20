@@ -244,6 +244,7 @@ h3.tracklistExpand{
 
 .artistName:hover{
 	color: #000000;
+	text-shadow: 4px 0px #000000;
 }
 
 .artistName:visited{
