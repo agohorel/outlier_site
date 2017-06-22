@@ -22,10 +22,35 @@ logo.addEventListener("mouseout", function(){
 
 // artists
 
-	var artistName = document.getElementsByClassName("artistName");
+var artistName = document.getElementsByClassName("artistName");
 
-	for (var i = 0; i < artistName.length; i++) {
-		artistName[i].addEventListener("click", function(){
+for (var i = 0; i < artistName.length; i++) {
+	artistName[i].addEventListener("click", function(){
 		this.classList.toggle("artistClicked");
-		});
+	});
+}
+
+
+// podcast
+
+// Get the modal
+var modal = document.getElementById('modal001');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('audioPlayerImg');
+var modalImg = document.getElementById("img001");
+
+for (var i = 0; i < img.length; i++){
+	img.onclick = function(){
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
 	}
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
