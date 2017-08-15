@@ -304,5 +304,15 @@ h3.tracklistExpand{
 
 }
 
+.tumblr_posts{
+	padding-top: 20px;
+}
+
+.tumblr_post{
+	padding-bottom: 40px;
+	margin: auto;
+    width: 50%;
+}
+
 
 
