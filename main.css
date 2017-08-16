@@ -63,14 +63,7 @@ body{
 #header-logo{
 	max-width: 40px;
 	max-height: 40px;
-	transition: all .3s ease; 
 }
-
-#header-logo:hover{
-	max-width: 80px;
-	max-height: 80px;
-}
-
 
 #home-text{
 	margin-top: 40%;
@@ -316,6 +309,3 @@ h3.tracklistExpand{
 	margin: auto;
     width: 50%;
 }
-
-
-
