@@ -2,7 +2,7 @@ p5.disableFriendlyErrors = true;
 var numLines, dampX, dampY, dampen;
 
 function setup() {
-  can = createCanvas(800, 800);
+  can = createCanvas(1000, 1000);
   pixelDensity(1);
   noSmooth();
   centerCanvas();
@@ -33,8 +33,8 @@ function draw() {
   translate(width / 2, height / 2);
   rotate(radians(45));
 
-  dampX = map(mouseX, 0, width, .1, .6);
-  dampY = map(mouseY, 0, height, .1, .6);
+  dampX = map(mouseX, 0, width, .25, .5);
+  dampY = map(mouseY, 0, height, .25, .5);
   dampen = dampX + dampY / 2;
   
     for (var i = 0; i < numLines; i++) {
@@ -46,7 +46,7 @@ function draw() {
     line(x1(t*dampen, i / 4, i*1.5), x1(t, i / 4, i*1.5), x1(t, i / 4, i*1.5), x1(t*dampen, i / 4, i*1.5));
     
   }
-  t += 0.15 * dampen;
+  t += 1 * dampen;
 }
 
 function x1(t, param, magni) {
