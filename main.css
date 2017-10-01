@@ -66,6 +66,8 @@ body{
 }
 
 #home-text{
+	position: relative;
+	z-index: 1;
 	margin-top: 40%;
 	text-align: center;
 }
