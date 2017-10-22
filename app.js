@@ -11,6 +11,10 @@ app.get("/", function(req, res){
 	res.render("../views/static/home.ejs");
 });
 
+app.get("/news", function(req, res){
+	res.render("../views/static/news.ejs");
+});
+
  app.listen(8000, "127.0.0.1", function(){
  	console.log("outlier server is listening");
  });
