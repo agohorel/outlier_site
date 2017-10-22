@@ -23,6 +23,10 @@ app.get("/releases", function(req, res){
 	res.render("../views/static/releases.ejs");
 });
 
+app.get("/podcast", function(req, res){
+	res.render("../views/static/podcast.ejs");
+});
+
  app.listen(8000, "127.0.0.1", function(){
  	console.log("outlier server is listening");
  });
