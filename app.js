@@ -19,6 +19,9 @@ app.get("/artists", function(req, res){
 	res.render("../views/static/artists.ejs");
 });
 
+app.get("/releases", function(req, res){
+	res.render("../views/static/releases.ejs");
+});
 
  app.listen(8000, "127.0.0.1", function(){
  	console.log("outlier server is listening");
