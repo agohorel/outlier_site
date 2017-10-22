@@ -27,6 +27,10 @@ app.get("/podcast", function(req, res){
 	res.render("../views/static/podcast.ejs");
 });
 
+app.get("/support", function(req, res){
+	res.render("../views/static/support.ejs");
+});
+
  app.listen(8000, "127.0.0.1", function(){
  	console.log("outlier server is listening");
  });
