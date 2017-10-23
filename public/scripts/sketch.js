@@ -33,8 +33,8 @@ function draw() {
   translate(width / 2, height / 2);
   rotate(radians(45));
 
-  dampX = map(mouseX, 0, width, .1, .5);
-  dampY = map(mouseY, 0, height, .1, .5);
+  dampX = map(mouseX, 0, width, .25, .5);
+  dampY = map(mouseY, 0, height, .25, .5);
   dampen = dampX + dampY / 2;
   
     for (var i = 0; i < numLines; i++) {
@@ -48,11 +48,11 @@ function draw() {
   }
 
   if(second() % 60 <= 29){
-    t += 1 * dampen;
+    t += .5 * dampen;
     print("condition 1:", second(), second() % 60);
   }  else
   if(second() % 60 > 30){
-    t -= 1 * dampen;
+    t -= .5 * dampen;
     print("condition 2:", second(), second() % 60);
   }
   
